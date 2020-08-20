@@ -1,0 +1,24 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholasd-uci/noteTaker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/nicholasd-uci/noteTaker/issues"
+  },
+  "homepage": "https://github.com/nicholasd-uci/noteTaker#readme"
+}
