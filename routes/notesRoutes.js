@@ -46,7 +46,7 @@ router.put('/notes/:text', (req, res) => {
         let notes = JSON.parse(data)
 
         for (let i = 0; i < notes.length; i++) {
-            if (notes[i].text === req.params.text) {
+            if (notes[i].id === req.params.id) {
                 notes[i].isDone = req.body.isDone
             }
         }
@@ -68,7 +68,7 @@ router.delete('/notes/:text', (req, res) => {
         if (err) { console.log(err) }
 
         let notes = JSON.parse(data)
-        notes = notes.filter(note => notes.text !== req.params.text)
+        notes = notes.filter(note => notes.id !== req.params.id)
 
         fs.writeFile(join(__dirname, '..', 'db', 'db.json'), JSON.stringify(notes), err => {
             if (err) { console.log(err) }
