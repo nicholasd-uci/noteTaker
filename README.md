@@ -1,4 +1,4 @@
-#Note Taker
+#Note Taker App
 
 ##Description
 
@@ -24,8 +24,8 @@ For users that need to keep track of a lot of information, it's easy to forget o
 
 
 ##Submission URL Links Below
-*The URL for Heroku:
-*The URL for GitHub repository:
+*[The URL for Heroku:] (https://ancient-brushlands-94134.herokuapp.com/)
+*[The URL for GitHub repository:] (https://github.com/nicholasd-uci/noteTaker)
 
 - - -
 © Nicholas Paul Ruiz Dallas
