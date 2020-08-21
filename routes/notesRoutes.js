@@ -1,4 +1,4 @@
-const { Router } = require('express')
+// const { Router } = require('express')
 
 // build an instance for our router
 const router = require('express').Router()
@@ -38,26 +38,26 @@ router.post('/notes', (req, res) => {
 })
 
 // PUT one item
-router.put('/notes/:id', (req, res) => {
+// router.put('/notes/:id', (req, res) => {
 
-    fs.readFile(join(__dirname, '..', 'db', 'db.json'), 'utf8', (err, data) => {
-        if (err) { console.log(err) }
+//     fs.readFile(join(__dirname, '..', 'db', 'db.json'), 'utf8', (err, data) => {
+//         if (err) { console.log(err) }
 
-        let notes = JSON.parse(data)
+//         let notes = JSON.parse(data)
 
-        for (let i = 0; i < notes.length; i++) {
-            if (notes[i].id === req.params.id) {
-                notes[i].isDone = req.body.isDone
-            }
-        }
+//         for (let i = 0; i < notes.length; i++) {
+//             if (notes[i].id === req.params.id) {
+//                 notes[i].isDone = req.body.isDone
+//             }
+//         }
 
-        fs.writeFile(join(__dirname, '..', 'db', 'db.json'), JSON.stringify(notes), err => {
-            if (err) { console.log(err) }
+//         fs.writeFile(join(__dirname, '..', 'db', 'db.json'), JSON.stringify(notes), err => {
+//             if (err) { console.log(err) }
 
-            res.json(req.body)
-        })
-    })   
-})
+//             res.json(req.body)
+//         })
+//     })   
+// })
 
 
 
@@ -68,7 +68,7 @@ router.delete('/notes/:id', (req, res) => {
         if (err) { console.log(err) }
 
         let notes = JSON.parse(data)
-        notes = notes.filter(note => notes.id !== req.params.id)
+        notes = notes.filter(note => note.id !== req.params.id)
 
         fs.writeFile(join(__dirname, '..', 'db', 'db.json'), JSON.stringify(notes), err => {
             if (err) { console.log(err) }

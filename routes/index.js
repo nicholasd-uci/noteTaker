@@ -1,4 +1,4 @@
-const { route } = require('./notesRoutes')
+// const { route } = require('./notesRoutes')
 
 // This file is responsible for gathering all the files and then sending them out as one //
 const router = require('express').Router()
