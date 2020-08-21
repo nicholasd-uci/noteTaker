@@ -1,4 +1,4 @@
-// const { Router } = require('express')
+const { Router } = require('express')
 
 // build an instance for our router
 const router = require('express').Router()
@@ -25,7 +25,7 @@ router.post('/notes', (req, res) => {
         let note = {
             id: uuid.v1(),
             text: req.body.text,
-            isDone: req.body.isDone
+            title: req.body.title
         }
         notes.push(note)
 
@@ -47,7 +47,7 @@ router.post('/notes', (req, res) => {
 
 //         for (let i = 0; i < notes.length; i++) {
 //             if (notes[i].id === req.params.id) {
-//                 notes[i].isDone = req.body.isDone
+//                 notes[i].title = req.body.title
 //             }
 //         }
 
