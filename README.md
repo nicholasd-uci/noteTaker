@@ -1,6 +1,6 @@
 ## Note Taker App
 
-## Description
+## About
 
 This is using api server called heroku. we are writing our code in VS code and deploying with Heroku. This is an app that we created to make files that can be used for notes and save them for later, edit them always, and delete things that we don't need. 
 
@@ -32,6 +32,7 @@ For users that need to keep track of a lot of information, it's easy to forget o
 ## Submission Links
 
 ![The URL for Heroku:](https://ancient-brushlands-94134.herokuapp.com/)
+
 ![The URL for GitHub repository:](https://github.com/nicholasd-uci/noteTaker)
 
 - - -
