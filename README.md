@@ -20,10 +20,19 @@ This is using api server called heroku. we are writing our code in VS code and d
 
 For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
 
+## Source Reference 
 
-## Submission URL Links Below
+- [npm](https://www.npmjs.com/)
+- [npm express](https://www.npmjs.com/package/express)
+- [express js](https://expressjs.com/)
+- [nodemon.io](https://nodemon.io/)
+- [postman](https://www.postman.com/)
+- [Heroku](https://www.heroku.com/)
+
+## Submission Links
+
 ![The URL for Heroku:](https://ancient-brushlands-94134.herokuapp.com/)
 ![The URL for GitHub repository:](https://github.com/nicholasd-uci/noteTaker)
 
 - - -
-© Nicholas Paul Ruiz Dallas
+© 2020 NPRD, Nicholas Paul Ruiz Dallas
