@@ -31,9 +31,9 @@ For users that need to keep track of a lot of information, it's easy to forget o
 
 ## Submission Links
 
-![The URL for Heroku:](https://ancient-brushlands-94134.herokuapp.com/)
+- [The URL for Heroku:](https://ancient-brushlands-94134.herokuapp.com/)
 
-![The URL for GitHub repository:](https://github.com/nicholasd-uci/noteTaker)
+- [The URL for GitHub repository:](https://github.com/nicholasd-uci/noteTaker)
 
 - - -
 © 2020 NPRD, Nicholas Paul Ruiz Dallas
